@@ -45,4 +45,16 @@ ul li:last-child {
 ul + p {
     color: red;
 }
+/* General sibling selector */
+ul ~ p {
+    text-decoration: line-through;
+}
+/* X:nth child(n) */
+ul:nth-child(3) {
+    color: black;
+}
+/* X:nth-of-type(n) */
+.main-nav ul li:nth-of-type(1) {
+    border: 3px dotted hotpink;
 
+}
