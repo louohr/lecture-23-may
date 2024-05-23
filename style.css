@@ -1,0 +1,48 @@
+/* universalselektorn */
+* {
+    box-sizing: border-box;
+}
+/* använda en klass */
+.main-nav {
+    color: teal;
+}
+
+/* arvselektor (Descendant) */
+li a {
+    color: green;
+}
+/* använda id */
+#selected-link {
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* pseud-klass */
+li:hover {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:visited {
+    color: yellowgreen;
+}
+/* attributselektor */
+input[type="text"] {
+    color: hotpink;
+}
+/* Direct Descendant */
+.container > ul {
+    color: hotpink;
+}
+/* first child */
+ul li:first-child {
+    color: rebeccapurple;
+}
+/* first child */
+ul li:last-child {
+    color: blue;
+}
+/* adjascent sibling selector */
+ul + p {
+    color: red;
+}
+
